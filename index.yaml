@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  consul:
+  - apiVersion: v1
+    created: 2019-10-16T19:37:58.811668899Z
+    description: Install and configure Consul on Kubernetes.
+    digest: 45e938f261bf826f64093c03307d376c7860f77a205e0fe93bf91f1ba910ae43
+    home: https://www.consul.io
+    name: consul
+    sources:
+    - https://github.com/hashicorp/consul
+    - https://github.com/hashicorp/consul-helm
+    - https://github.com/hashicorp/consul-k8s
+    urls:
+    - consul-0.10.0.tgz
+    version: 0.10.0
+  vault:
+  - apiVersion: v1
+    created: 2019-10-16T19:37:58.812663503Z
+    description: Install and configure Vault on Kubernetes.
+    digest: 67dbba1d977eb45e7984f28c8be81075934cec9de32e08596d26cf1402042141
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    urls:
+    - vault-0.1.2.tgz
+    version: 0.1.2
+generated: 2019-10-16T19:37:58.809852992Z
