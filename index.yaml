@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   consul:
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.026121761Z
+    created: 2019-12-19T22:08:38.71783926Z
     description: Install and configure Consul on Kubernetes.
     digest: 45e938f261bf826f64093c03307d376c7860f77a205e0fe93bf91f1ba910ae43
     home: https://www.consul.io
@@ -16,7 +16,7 @@ entries:
     version: 0.10.0
   twistlock-console:
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.027374766Z
+    created: 2019-12-19T22:08:38.718341961Z
     description: Twistlock Console Helm Chart
     digest: abf810a2d4404e1bb78eb925403fb19b53cdfe4cf99d8f81e33145e980ffbaed
     name: twistlock-console
@@ -25,7 +25,21 @@ entries:
     version: 19.07.363
   vault:
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.033240787Z
+    created: 2019-12-19T22:08:38.726915591Z
+    description: Install and configure Vault on Kubernetes.
+    digest: a1aa0381ad815c16c115851af0a7c43ccbd6e4dc4a5b6da031d115817ab6b2c4
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    urls:
+    - vault-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    created: 2019-12-19T22:08:38.725196685Z
     description: Install and configure Vault on Kubernetes.
     digest: c5dbe98aeea12217dd7219530fb976b5dd9db7ed3690bea7cb39d78aae4751f4
     home: https://www.vaultproject.io
@@ -38,7 +52,7 @@ entries:
     - vault-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.032363384Z
+    created: 2019-12-19T22:08:38.723164578Z
     description: Install and configure Vault on Kubernetes.
     digest: 0ceea63f458fee08a0cae9efb4c883f55276af56248b2796cb3ca629ddf530cb
     home: https://www.vaultproject.io
@@ -51,7 +65,7 @@ entries:
     - vault-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.030378377Z
+    created: 2019-12-19T22:08:38.721636273Z
     description: Install and configure Vault on Kubernetes.
     digest: 6222dd805cae1659a468293b53a2b2e728c1f0bbb662d9c04d30a423928b5d04
     home: https://www.vaultproject.io
@@ -64,7 +78,7 @@ entries:
     - vault-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: 2019-12-02T21:52:40.028805471Z
+    created: 2019-12-19T22:08:38.719838366Z
     description: Install and configure Vault on Kubernetes.
     digest: 67dbba1d977eb45e7984f28c8be81075934cec9de32e08596d26cf1402042141
     home: https://www.vaultproject.io
@@ -76,4 +90,4 @@ entries:
     urls:
     - vault-0.1.2.tgz
     version: 0.1.2
-generated: 2019-12-02T21:52:40.023840953Z
+generated: 2019-12-19T22:08:38.71503305Z
