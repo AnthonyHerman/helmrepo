@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   consul:
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.85478399Z"
+    created: "2020-03-06T20:44:19.169499205Z"
     description: Install and configure Consul on Kubernetes.
     digest: 45e938f261bf826f64093c03307d376c7860f77a205e0fe93bf91f1ba910ae43
     home: https://www.consul.io
@@ -16,7 +16,7 @@ entries:
     version: 0.10.0
   twistlock-console:
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.855852594Z"
+    created: "2020-03-06T20:44:19.170107707Z"
     description: Twistlock Console Helm Chart
     digest: abf810a2d4404e1bb78eb925403fb19b53cdfe4cf99d8f81e33145e980ffbaed
     name: twistlock-console
@@ -25,7 +25,21 @@ entries:
     version: 19.07.363
   vault:
   - apiVersion: v2
-    created: "2020-03-06T19:49:33.867334239Z"
+    created: "2020-03-06T20:44:19.185296457Z"
+    description: Install and configure Vault on Kubernetes.
+    digest: 3093bb27436219578030b7cb3f8d07e002d0f0de4533f005c4e4c5f3595c59a0
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    urls:
+    - vault-6.6.8.tgz
+    version: 6.6.8
+  - apiVersion: v2
+    created: "2020-03-06T20:44:19.183597751Z"
     description: Install and configure Vault on Kubernetes.
     digest: 2f22d2028cd823358827359dedb1b2ae6689d96ae5dcd9fcab0227a4a9a75348
     home: https://www.vaultproject.io
@@ -39,7 +53,7 @@ entries:
     - vault-6.6.7.tgz
     version: 6.6.7
   - apiVersion: v2
-    created: "2020-03-06T19:49:33.865663233Z"
+    created: "2020-03-06T20:44:19.182022646Z"
     description: Install and configure Vault on Kubernetes.
     digest: ad611affb291f479c7840531ffe42e79d6c1d0d79fae580851cfe329582d95b8
     home: https://www.vaultproject.io
@@ -53,7 +67,7 @@ entries:
     - vault-6.6.6.tgz
     version: 6.6.6
   - apiVersion: v2
-    created: "2020-03-06T19:49:33.864062126Z"
+    created: "2020-03-06T20:44:19.180327341Z"
     description: Install and configure Vault on Kubernetes.
     digest: 53052f66d2d2cfefe300b219ce5291285c1a91ec469136a5ea93383cd1dc042c
     home: https://www.vaultproject.io
@@ -67,7 +81,7 @@ entries:
     - vault-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.862588721Z"
+    created: "2020-03-06T20:44:19.178797536Z"
     description: Install and configure Vault on Kubernetes.
     digest: a1aa0381ad815c16c115851af0a7c43ccbd6e4dc4a5b6da031d115817ab6b2c4
     home: https://www.vaultproject.io
@@ -81,7 +95,7 @@ entries:
     - vault-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.861248615Z"
+    created: "2020-03-06T20:44:19.176909029Z"
     description: Install and configure Vault on Kubernetes.
     digest: c5dbe98aeea12217dd7219530fb976b5dd9db7ed3690bea7cb39d78aae4751f4
     home: https://www.vaultproject.io
@@ -94,7 +108,7 @@ entries:
     - vault-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.86001251Z"
+    created: "2020-03-06T20:44:19.175274224Z"
     description: Install and configure Vault on Kubernetes.
     digest: 0ceea63f458fee08a0cae9efb4c883f55276af56248b2796cb3ca629ddf530cb
     home: https://www.vaultproject.io
@@ -107,7 +121,7 @@ entries:
     - vault-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.858379504Z"
+    created: "2020-03-06T20:44:19.173143617Z"
     description: Install and configure Vault on Kubernetes.
     digest: 6222dd805cae1659a468293b53a2b2e728c1f0bbb662d9c04d30a423928b5d04
     home: https://www.vaultproject.io
@@ -120,7 +134,7 @@ entries:
     - vault-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
-    created: "2020-03-06T19:49:33.856918198Z"
+    created: "2020-03-06T20:44:19.171830213Z"
     description: Install and configure Vault on Kubernetes.
     digest: 67dbba1d977eb45e7984f28c8be81075934cec9de32e08596d26cf1402042141
     home: https://www.vaultproject.io
@@ -132,4 +146,4 @@ entries:
     urls:
     - vault-0.1.2.tgz
     version: 0.1.2
-generated: "2020-03-06T19:49:33.852507381Z"
+generated: "2020-03-06T20:44:19.167083997Z"
